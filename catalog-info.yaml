@@ -10,3 +10,15 @@ spec:
   lifecycle: experimental
   owner: Dalmatians
  
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Sample-component4
+  description: sample backstage component
+  tags:
+    - sample
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Dalmatians
