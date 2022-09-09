@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  links:
+    - icon: dashboard
+      title: Slack Channel
+      url: example.com
+  name: bbq-admin
+spec:
+  children: []
+  type: team
